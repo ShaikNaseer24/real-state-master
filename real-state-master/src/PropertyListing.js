@@ -316,11 +316,11 @@ const PropertyListing = () => {
                       <img key={index} src={image} alt={`Image ${index}`} />
                     ))}
                   </div> */}
-                  <div className="image-preview">
+                  {/* <div className="image-preview">
                       {resizedImages.map((image, index) => (
                         <img key={index} src={image} alt={`Image ${index}`} />
                       ))}
-                    </div>
+                    </div> */}
 
                 </div>
                 <p className="p-font p-color">
