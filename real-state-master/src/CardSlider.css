@@ -1,0 +1,122 @@
+/* CardSlider.css */
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* CardSlider.css */
+  .carousel-container {
+    position: relative;
+    margin: 20px auto; /* Add margin to center the container */
+    width: 90%; /* Set the width of the container to occupy 90% of the screen */
+    max-width: 1200px; /* Add max-width to limit the container's width on larger screens */
+  }
+  
+  .carousel {
+    display: flex;
+    transition: all 0.3s ease; /* Add transition effect for smooth sliding */
+    margin: 0 -10px; /* Add margin to create space between cards */
+  }
+  
+  .card {
+    flex: 0 0 calc(100% / 1 - 20px); /* Set the width of each card to occupy 100% of the container's width for mobile */
+    max-width: calc(100% / 1 - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 10px; /* Add margin to create space between cards */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Add scale and opacity transition for a nice effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Apply scale effect on hover */
+  }
+  
+  /* For the fade-in and fade-out effect */
+  .card.hidden {
+    opacity: 0;
+    pointer-events: none; /* Disable pointer events for hidden cards */
+    transform: scale(0.9); /* Apply scale effect to make hidden cards slightly smaller */
+  }
+  
+  /* For tablets */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .card {
+      flex: 0 0 calc(100% / 2 - 20px); /* Set the width of each card to occupy 50% of the container's width for tablets */
+      max-width: calc(100% / 2 - 20px);
+    }
+  }
+  
+  /* For desktops */
+  @media screen and (min-width: 992px) {
+    .card {
+      flex: 0 0 calc(100% / 3 - 20px); /* Set the width of each card to occupy 33.33% of the container's width for desktops */
+      max-width: calc(100% / 3 - 20px);
+    }
+  }
+  
+  .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .arrow-left {
+    left: 0;
+  }
+  
+  .arrow-right {
+    right: 0;
+  }
+  
+  .arrow:hover {
+    color: #007bff;
+  }
+  
+  .invisible {
+    visibility: hidden;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .arrow {
+      font-size: 20px;
+    }
+    
+    .carousel {
+      margin: 0;
+    }
+    
+    .card {
+      margin: 0;
+    }
+  }
+  
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #007bff;
+  }

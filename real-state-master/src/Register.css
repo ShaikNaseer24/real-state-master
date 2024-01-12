@@ -1,0 +1,213 @@
+.bgcontainer1 {
+    background-image: url('imgr1.jpg');
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .container1 {
+    display: flex;
+    padding: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: Verdana;
+  }
+  .forms1 {
+    background-color:transparent;
+    max-width: 600px;
+    width: 130%;
+    height:85%;
+    padding: 10px;
+    margin-top: 90px;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .form-content1 {
+    text-align: center;
+    color: #ad47bd;
+    /* font-weight: bold; */
+  }
+  .span1{
+    color:#eff704;
+    
+  }
+  .span1:hover{
+    color:#05ed01;
+    
+  }
+  .para1{
+    color:#f5f7fb;
+  }
+  .Headername1 {
+    color: #f7f4f4;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .field1 {
+    margin-bottom: 20px;
+  }
+  .input-field1 input {
+    width: 160%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: -50px;
+  }
+  .password1 {
+    position: relative;
+  }
+  
+  .password1 .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .form-link1 {
+    margin-bottom: 6px;
+    color: #fcf9f9;
+    width: 100%;
+    
+  }
+  .button-field1 button {
+    width: 160%;
+    padding: 10px;
+    background-color: #4879f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -50px;
+  }
+  .button-field1 button:hover{
+
+    background-color: #06721f;
+
+  }
+  .line11 {
+    display: flex; /* Use flexbox to create a flexible container */
+    justify-content: space-between; /* Space the two sections evenly */
+    max-width: 1200px; /* Optional: Set a maximum width for the container */
+    margin: 0 auto; /* Optional: Center the container on the page */
+  }
+  .section3,
+  .section4 {
+    flex: 1; /* Allow the sections to grow and take equal space */
+    padding: 14px; /* Add some spacing around the content within each section */
+    /*  border: 1px solid #ccc; */ /* Optional: Add a border for visual separation */
+    box-sizing: border-box; /* Optional: Include padding and border in the section's total width */
+  }
+  .section4 {
+    padding: 16px;
+  }
+  .media-options11 {
+    /* background-color: #f8fafc; */
+    border-radius: 12px;
+    width: 160%;
+    text-align: center;
+     margin-left: -50px;
+  }
+  .media-options12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: #666;
+    border-radius: 20px;
+    width: 150%;
+    
+  }
+  .facebook1 {
+    padding: 12px;
+  }
+  .field1.facebook1 {
+    /* background-color: #1155de; */
+    /* color: #ffffff; */
+    justify-content: space-between;
+  }
+  .field1.facebook1,
+  .field1.google1 {
+    display: flex;
+    align-items: center;
+    background-color: #4029f1;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f5f4f4;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  span{
+    width: 100%;
+  }
+  .field1.google1 {
+    color: #f4efef;
+    margin-right: 30px;
+  }
+  .gicons11 {
+    padding-right: 24px;
+  
+    
+    padding: 10px;
+    border-radius: 24px;
+  text-align: center;
+  }
+
+  
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+      width: 270px;
+      height: auto;
+    }
+  
+    .forms {
+      margin: 20px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .forms {
+      padding: 10px;
+    }
+  
+    .field input {
+      padding: 5px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container1 {
+      flex-direction: column;
+      height: auto;
+      width: 270px;
+      height: auto;
+    }
+  
+    .forms1 {
+      margin: 20px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .forms1 {
+      padding: 10px;
+    }
+  
+    .field1 input {
+      padding: 5px;
+    }
+  }
+  

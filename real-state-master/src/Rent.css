@@ -1,0 +1,159 @@
+
+body{
+/* background-image: url('rentbg.jpg'); */
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.rui-Bz2UM {
+  position: relative;
+}
+.rui-Bz2UM .rui-tLDMy {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  border-radius: 4px;
+  border-style: none;
+  margin: 4px 0;
+  position: relative;
+}
+.rui-teFcP {
+  background-color: var(--brandAccentLight);
+  box-shadow: inset 0 0 0 1px var(--blackText);
+}
+.rui-pdy8W {
+  appearance: none;
+  background-color: var(--white);
+  border-style: none;
+  box-shadow: inset 0 0 0 1px var(Grey);
+  border-radius: 4px;
+  color: var(--blackText);
+  cursor: pointer;
+  font-size: 14px;
+  height: 36px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  min-width: 64px;
+  outline: 0;
+  padding: 8px 16px;
+}
+.rui-2brBP .rui-2brBP {
+  appearance: none;
+  background: none;
+  border: none;
+  color: var(--blackText);
+  display: block;
+  font-size: 16px;
+  height: 48px;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+}
+
+.button1{
+  color: black;
+   width: 100px;
+   height: 40px;
+   background-color: #45a049;
+  margin-left: 35%;
+
+}
+input:-webkit-autofill {
+  -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: #050505;
+}
+option{
+  color: black;
+}
+.button1:hover{
+  background-color: #05f815;
+}
+.button2{
+  margin-left:5%;
+  background-color: rgb(192, 243, 255);
+  width: 100px;
+  height: 40px;
+}
+.button2:hover{
+  background-color: rgb(0, 123, 255);
+}
+.h1{
+  text-align: center;
+  color: pink;
+}
+button{
+  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 25px;
+}
+/* Normal button styles */
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the button when it's selected (clicked) */
+.button:active {
+  background-color: #45a049; /* You can adjust the color as desired */
+  transform: translateY(2px); /* Optional: Add a slight vertical shift when clicked */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle box shadow when clicked */
+}
+/* .background-container {
+  background-image: url('rentbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height:-90%;
+  
+} */
+
+form{
+  text-align:justify;
+ margin-top: auto;
+  margin-left: 30%;
+  margin-right: 20%;
+  padding-left: 30px;
+ 
+  border: 1px solid;
+  
+  border-radius:  10px 10px 10px 10px;
+  
+}
+.nnm{
+  margin-top: 110px;
+}
+.transparent-form {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0 to 1) to control transparency */
+  padding: 20px;
+  /* Add any other desired styles */
+}
+
+.main{
+  color: rgb(17, 17, 17);
+height: 900px;
+}
+label{
+  color: aliceblue  ;
+}
+select [id="floorOptions"]{
+  width: 300px;
+}
+.no{
+  background-color: white;
+  color: #050505;
+}
+input[type="file"]{
+color: #f5f5f5;
+}
+input{
+  width:48%!important;}
+  
+
+
+
+
+
